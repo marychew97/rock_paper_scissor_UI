@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Righteous', cursive;
+    background: #c2c094;
+    color: #1c2321;
+}
+
+.cont{
+    display: inline;
+}
+
+/*Round buttons with images fit in*/
+.button{
+    border-radius: 50%; 
+    background-color: #c2c094;
+    height: 20vw;
+    width: 20vw;
+    overflow: hidden;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    border: 5px solid #1c2321;
+}
+
+/*remove outline of the button when being clicked*/
+.button:focus{
+    outline: 0;
+}
+
+.button img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.compScorePara, .userScorePara{
+    display: inline;
+}
+
+.userScore, .compScore{
+    margin-right: 20px;
+    display: inline;
+}
+
+.resetBtn{
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    background-color: #c2c094;
+    border: 2px solid #1c2321;
+}
+
+.resetBtn:hover{
+    color: #c2c094;
+    background-color: #1c2321;
+    cursor: pointer;
+}
