@@ -30,6 +30,10 @@ body{
     outline: 0;
 }
 
+.button:hover{
+    background-color: #1c2321;
+}
+
 .button img{
     height: 100px;
     width: 100px;
